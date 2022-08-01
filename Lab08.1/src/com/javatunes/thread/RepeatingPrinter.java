@@ -19,6 +19,7 @@ implements Runnable {
         Thread.sleep(1000);
       }
       catch (InterruptedException e) {
+        // Do nothing! Go to next loop!
       }
     }
   }
